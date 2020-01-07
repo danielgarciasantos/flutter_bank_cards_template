@@ -21,6 +21,9 @@ class $pt_BR extends MessageLookupByLibrary {
 		"close_button" : MessageLookupByLibrary.simpleMessage("Fechar"),
 		"current_balance" : MessageLookupByLibrary.simpleMessage("Saldo Atual"),
 		"statement" : MessageLookupByLibrary.simpleMessage("Extrato"),
+		"payments" : MessageLookupByLibrary.simpleMessage("Pagamentos"),
+		"invoices" : MessageLookupByLibrary.simpleMessage("Faturas"),
+		"more" : MessageLookupByLibrary.simpleMessage("Mais"),
 		"app_name" : MessageLookupByLibrary.simpleMessage("Mobile Bank"),
 		"cvv" : MessageLookupByLibrary.simpleMessage("CVV"),
 		"password" : MessageLookupByLibrary.simpleMessage("Senha"),
@@ -67,6 +70,10 @@ class $pt_BR extends MessageLookupByLibrary {
 		"new_password_sent" : MessageLookupByLibrary.simpleMessage("Uma nova senha foi enviado para seu e-mail!"),
 		"emailNotFound" : MessageLookupByLibrary.simpleMessage("E-mail não encontrado!"),
 		"my_cards_title" : MessageLookupByLibrary.simpleMessage("Meus Cartões"),
+		"valid_thru" : MessageLookupByLibrary.simpleMessage("VÁLIDO ATÉ"),
+		"statement_date" : MessageLookupByLibrary.simpleMessage("Data do Extrato:"),
+		"bank" : MessageLookupByLibrary.simpleMessage("Banco"),
+		"agency" : MessageLookupByLibrary.simpleMessage("Agência"),
 
   };
 }
@@ -85,6 +92,9 @@ class $en_US extends MessageLookupByLibrary {
 		"close_button" : MessageLookupByLibrary.simpleMessage("Close"),
 		"current_balance" : MessageLookupByLibrary.simpleMessage("Current Balance"),
 		"statement" : MessageLookupByLibrary.simpleMessage("Statement"),
+		"payments" : MessageLookupByLibrary.simpleMessage("Payments"),
+		"invoices" : MessageLookupByLibrary.simpleMessage("Invoices"),
+		"more" : MessageLookupByLibrary.simpleMessage("More"),
 		"app_name" : MessageLookupByLibrary.simpleMessage("Mobile Bank"),
 		"cvv" : MessageLookupByLibrary.simpleMessage("CVV"),
 		"due_date" : MessageLookupByLibrary.simpleMessage("Due Date"),
@@ -131,6 +141,10 @@ class $en_US extends MessageLookupByLibrary {
 		"new_password_sent" : MessageLookupByLibrary.simpleMessage("A new password has been sent to your email address!"),
 		"emailNotFound" : MessageLookupByLibrary.simpleMessage("Email not found!"),
 		"my_cards_title" : MessageLookupByLibrary.simpleMessage("My Cards"),
+		"valid_thru" : MessageLookupByLibrary.simpleMessage("VALID THRU"),
+		"statement_date" : MessageLookupByLibrary.simpleMessage("Statement date:"),
+		"bank" : MessageLookupByLibrary.simpleMessage("Bank"),
+		"agency" : MessageLookupByLibrary.simpleMessage("Agency"),
 
   };
 }

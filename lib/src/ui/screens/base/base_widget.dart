@@ -1,3 +1,11 @@
+/*
+
+This class was based on the Flutter Provider v3 Architecture using ProxyProvider for Injection
+
+https://medium.com/flutter-community/flutter-provider-v3-architecture-using-proxyprovider-for-injection-62cf5c58ea52
+
+ */
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -35,7 +43,7 @@ class _BaseWidgetState<T extends ChangeNotifier> extends State<BaseWidget<T>> {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider<T>(
-      builder: (context) => model,
+      create: (context) => model,
       child: Consumer<T>(
         builder: widget.builder,
         child: widget.child,

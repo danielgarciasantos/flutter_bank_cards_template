@@ -58,6 +58,18 @@ class S {
     return Intl.message("Extrato", name: 'statement');
   }
 
+  String get payments {
+    return Intl.message("Pagamentos", name: 'payments');
+  }
+
+  String get invoices {
+    return Intl.message("Faturas", name: 'invoices');
+  }
+
+  String get more {
+    return Intl.message("Mais", name: 'more');
+  }
+
   String get app_name {
     return Intl.message("Mobile Bank", name: 'app_name');
   }
@@ -240,6 +252,22 @@ class S {
 
   String get my_cards_title {
     return Intl.message("Meus Cartões", name: 'my_cards_title');
+  }
+
+  String get valid_thru {
+    return Intl.message("VÁLIDO ATÉ", name: 'valid_thru');
+  }
+
+  String get statement_date {
+    return Intl.message("Data do Extrato:", name: 'statement_date');
+  }
+
+  String get bank {
+    return Intl.message("Banco", name: 'bank');
+  }
+
+  String get agency {
+    return Intl.message("Agência", name: 'agency');
   }
 
 
